@@ -11,4 +11,9 @@ public class Main extends JavaPlugin {
         new Metrics(this);
         PlayerBorderAPI.getInstance().setJavaPlugin(this);
     }
+
+    @Override
+    public void onDisable() {
+        PlayerBorderAPI.getInstance().removeBorders();
+    }
 }
