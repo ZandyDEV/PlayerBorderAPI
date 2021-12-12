@@ -12,16 +12,7 @@ import org.bukkit.craftbukkit.v1_17_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.lang.reflect.Constructor;
-
 public class v1_17_R1 extends VersionSupport {
-    private Constructor<?> worldBorder;
-
-    public v1_17_R1() {
-        try {
-            worldBorder = Class.forName("net.minecraft.world.level.border.WorldBorder").getConstructors()[0];
-        } catch (ClassNotFoundException ignored) {}
-    }
 
     @Override
     public void sendBorder(Player player, BorderColor borderColor, int size, int centerX, int centerZ) {
