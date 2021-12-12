@@ -1,7 +1,7 @@
-package com.github.zandy.playerboderapi;
+package com.github.zandy.playerborderapi;
 
-import com.github.zandy.playerboderapi.api.PlayerBorderAPI;
-import com.github.zandy.playerboderapi.bstats.Metrics;
+import com.github.zandy.playerborderapi.api.PlayerBorderAPI;
+import com.github.zandy.playerborderapi.bstats.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {

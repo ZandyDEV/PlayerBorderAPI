@@ -1,4 +1,4 @@
-package com.github.zandy.playerboderapi.bstats;
+package com.github.zandy.playerborderapi.bstats;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;

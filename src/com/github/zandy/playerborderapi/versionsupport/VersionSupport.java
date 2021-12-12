@@ -1,7 +1,7 @@
-package com.github.zandy.playerboderapi.versionsupport;
+package com.github.zandy.playerborderapi.versionsupport;
 
-import com.github.zandy.playerboderapi.api.PlayerBorderAPI;
-import com.github.zandy.playerboderapi.api.PlayerBorderAPI.BorderColor;
+import com.github.zandy.playerborderapi.api.PlayerBorderAPI;
+import com.github.zandy.playerborderapi.api.PlayerBorderAPI.BorderColor;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

@@ -1,19 +1,19 @@
-package com.github.zandy.playerboderapi.versionsupport;
+package com.github.zandy.playerborderapi.versionsupport;
 
-import com.github.zandy.playerboderapi.api.PlayerBorderAPI;
-import com.github.zandy.playerboderapi.api.PlayerBorderAPI.BorderColor;
-import net.minecraft.server.v1_13_R2.PacketPlayOutWorldBorder;
-import net.minecraft.server.v1_13_R2.PacketPlayOutWorldBorder.EnumWorldBorderAction;
-import net.minecraft.server.v1_13_R2.PlayerConnection;
-import net.minecraft.server.v1_13_R2.WorldBorder;
-import net.minecraft.server.v1_13_R2.WorldServer;
-import org.bukkit.craftbukkit.v1_13_R2.entity.CraftPlayer;
+import com.github.zandy.playerborderapi.api.PlayerBorderAPI;
+import com.github.zandy.playerborderapi.api.PlayerBorderAPI.BorderColor;
+import net.minecraft.server.v1_12_R1.PacketPlayOutWorldBorder;
+import net.minecraft.server.v1_12_R1.PacketPlayOutWorldBorder.EnumWorldBorderAction;
+import net.minecraft.server.v1_12_R1.PlayerConnection;
+import net.minecraft.server.v1_12_R1.WorldBorder;
+import net.minecraft.server.v1_12_R1.WorldServer;
+import org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.Arrays;
 
-public class v1_13_R2 extends VersionSupport {
+public class v1_12_R1 extends VersionSupport {
 
     @Override
     public void sendBorder(Player player, BorderColor borderColor, int size, int centerX, int centerZ) {

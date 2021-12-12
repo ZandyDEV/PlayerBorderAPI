@@ -1,6 +1,6 @@
-package com.github.zandy.playerboderapi.api;
+package com.github.zandy.playerborderapi.api;
 
-import com.github.zandy.playerboderapi.versionsupport.VersionSupport;
+import com.github.zandy.playerborderapi.versionsupport.VersionSupport;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
