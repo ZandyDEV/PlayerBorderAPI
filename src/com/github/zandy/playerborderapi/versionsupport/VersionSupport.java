@@ -31,7 +31,6 @@ public abstract class VersionSupport {
                 case "v1_15_R1": instance = new v1_15_R1(); break;
                 case "v1_16_R3": instance = new v1_16_R3(); break;
                 case "v1_17_R1": instance = new v1_17_R1(); break;
-                case "v1_18_R1": instance = new v1_18_R1(); break;
                 default: Bukkit.getLogger().severe("PlayerBorderAPI is not supported on " + version); break;
             }
         }
