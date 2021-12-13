@@ -17,7 +17,7 @@ public class v1_18_R1 extends VersionSupport {
     public void sendBorder(Player player, BorderColor borderColor, int size, int centerX, int centerZ) {
         WorldBorder worldBorder = new WorldBorder();
         worldBorder.a(size);
-        worldBorder.c(centerZ, centerX);
+        worldBorder.c(centerX, centerZ);
         worldBorder.c(0);
         PlayerConnection playerConnection = ((CraftPlayer) player).getHandle().b;
         worldBorder.world = ((CraftPlayer) player).getHandle().x();
