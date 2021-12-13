@@ -11,8 +11,8 @@ public abstract class VersionSupport {
     public abstract void sendBorder(Player player, BorderColor borderColor, int size, int centerX, int centerZ);
 
     public void remove(Player player) {
-        if (!PlayerBorderAPI.getCache().containsKey(player.getUniqueId())) return;
         sendBorder(player, BorderColor.BLUE, Integer.MAX_VALUE, 0, 0);
+        if (!PlayerBorderAPI.getCache().containsKey(player.getUniqueId())) return;
         PlayerBorderAPI.getCache().get(player.getUniqueId()).cancel();
         PlayerBorderAPI.getCache().remove(player.getUniqueId());
     }

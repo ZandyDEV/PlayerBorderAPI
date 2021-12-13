@@ -28,12 +28,10 @@ public class v1_14_R1 extends VersionSupport {
         PlayerBorderAPI.getCache().put(player.getUniqueId(), new BukkitRunnable() {
             @Override
             public void run() {
-                if (PlayerBorderAPI.getInstance().hasBorder(player.getUniqueId())) {
-                    worldBorder.transitionSizeBetween(borderColor.formatSize(size), borderColor.formatSizeTo(size), 20000000);
-                    playerConnection.sendPacket(new PacketPlayOutWorldBorder(worldBorder, EnumWorldBorderAction.LERP_SIZE));
-                }
+                worldBorder.transitionSizeBetween(borderColor.formatSize(size), borderColor.formatSizeTo(size), 20000000);
+                playerConnection.sendPacket(new PacketPlayOutWorldBorder(worldBorder, EnumWorldBorderAction.LERP_SIZE));
             }
-        }.runTaskTimerAsynchronously(PlayerBorderAPI.getInstance().getJavaPlugin(), 120, 120));
+        }.runTaskTimerAsynchronously(PlayerBorderAPI.getInstance().getJavaPlugin(), 0, 120));
     }
 
     private void sendPackets(PlayerConnection playerConnection, WorldBorder worldBorder) {
