@@ -11,7 +11,6 @@ import org.bukkit.craftbukkit.v1_18_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-
 public class v1_18_R1 extends VersionSupport {
 
     @Override
