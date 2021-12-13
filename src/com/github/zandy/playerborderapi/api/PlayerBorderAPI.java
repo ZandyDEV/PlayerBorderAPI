@@ -54,6 +54,7 @@ public class PlayerBorderAPI {
     }
 
     public void setBorder(Player player, BorderColor borderColor, int borderSize, int borderX, int borderZ) {
+        VersionSupport.getInstance().remove(player);
         VersionSupport.getInstance().sendBorder(player, borderColor, borderSize, borderX, borderZ);
     }
 
