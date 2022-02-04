@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.zandy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {}
+
+test {
+    useJUnitPlatform()
+}

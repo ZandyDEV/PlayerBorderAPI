@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.zandy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven {
+        url "https://repo.codemc.io/repository/nms/" //Spigot Repo
+    }
+}
+
+dependencies {
+    compileOnly "org.bukkit:craftbukkit:1.16.5-R0.1-SNAPSHOT"
+    compileOnly project(":playerborderapi_common")
+}
+
+test {}
