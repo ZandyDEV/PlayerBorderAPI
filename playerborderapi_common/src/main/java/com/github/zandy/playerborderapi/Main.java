@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.annotation.plugin.Description;
 import org.bukkit.plugin.java.annotation.plugin.Plugin;
 import org.bukkit.plugin.java.annotation.plugin.author.Author;
 
-@Plugin(name = "PlayerBorderAPI", version = "Build 4")
+@Plugin(name = "PlayerBorderAPI", version = "Build 5")
 @Author("Zandy")
 @Description("PlayerBorderAPI allows to bring visual borders to players.")
 @SuppressWarnings("unused")
